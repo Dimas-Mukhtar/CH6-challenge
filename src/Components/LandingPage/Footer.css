@@ -1,0 +1,48 @@
+footer {
+  padding-top: 120px;
+}
+.address,
+.sosmed,
+.copyright p {
+  font-weight: 300;
+  font-size: 14px;
+  color: #000000;
+}
+
+.navigation p {
+  font-size: 14px;
+  font-weight: 700;
+  color: #000000;
+  cursor: pointer;
+}
+
+.sosmed img {
+  width: 32px;
+  height: 32px;
+  cursor: pointer;
+  margin-right: 10px;
+}
+
+.logo-binar-rental-car-footer {
+  background-color: #0d28a6;
+  width: 100px;
+  height: 34px;
+}
+
+@media only screen and (max-width: 868px) {
+  footer {
+    flex-direction: column;
+    padding-left: 50px;
+    padding-top: 50px;
+  }
+
+  .copyright {
+    margin-top: 10px;
+  }
+}
+
+@media only screen and (max-width: 450px) {
+  footer {
+    padding-left: 20px;
+  }
+}

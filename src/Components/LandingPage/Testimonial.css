@@ -1,0 +1,91 @@
+.testimonial {
+  padding-top: 100px;
+  padding-bottom: 130px;
+}
+
+.section-header-testimonial {
+  text-align: center;
+}
+
+.title-testimonial {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 36px;
+  color: #000000;
+}
+
+.berbagai-review {
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 20px;
+  color: #000000;
+}
+
+#carouselExample {
+  width: 75%;
+  margin: auto;
+}
+
+.container-slide {
+  background-color: #f1f3ff;
+  border-radius: 8px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  align-items: center;
+}
+
+.foto-testimonial {
+  width: 70px;
+  height: 80px;
+}
+
+.icon-rate {
+  width: 80px;
+  height: 16px;
+}
+
+.container-comment {
+  width: 400px;
+}
+
+.comment {
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 20px;
+  color: #000000;
+}
+
+.people {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+}
+
+@media only screen and (max-width: 990px) {
+  .container-slide {
+    flex-direction: column;
+    padding-bottom: 0px;
+  }
+  .container-comment {
+    width: 100%;
+    padding-left: 30px;
+    padding-right: 20px;
+    padding-top: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .icon-rate {
+    margin-bottom: 20px;
+  }
+
+  #carouselExample button {
+    top: -200px;
+  }
+
+  .testimonial {
+    padding-bottom: 50px;
+    padding-top: 50px;
+  }
+}

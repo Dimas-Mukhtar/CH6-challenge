@@ -1,0 +1,43 @@
+.flex-align {
+  margin: auto;
+  height: 326px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: #0d28a6;
+  height: 326px;
+  width: 90%;
+  border-radius: 13px;
+}
+
+.banner-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 54px;
+  color: #ffffff;
+  margin: 0px auto 10px auto;
+}
+
+.banner-caption {
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 20px;
+  color: #ffffff;
+  margin: 0px auto 30px auto;
+}
+
+@media only screen and (max-width: 570px) {
+  .banner-title {
+    font-size: 24px;
+  }
+
+  .banner-caption {
+    width: 200px;
+  }
+}
+
+@media (min-width: 570px) and (max-width: 867px) {
+  .banner-caption {
+    width: 500px;
+  }
+}

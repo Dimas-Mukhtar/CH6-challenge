@@ -1,0 +1,40 @@
+.faq {
+  margin-top: 100px;
+}
+
+.faq .container-faq {
+  width: 90%;
+}
+
+.faq-title {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 36px;
+  color: #000000;
+}
+
+.faq-caption {
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 20px;
+  color: #000000;
+}
+
+.pertanyaan {
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 20px;
+  color: #000000;
+  margin-bottom: 0px;
+}
+
+.accordion-item {
+  margin-bottom: 20px;
+  border-radius: 4px;
+}
+
+@media only screen and (max-width: 900px) {
+  .faq {
+    margin-top: 50px;
+  }
+}

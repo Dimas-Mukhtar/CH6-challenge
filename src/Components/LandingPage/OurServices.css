@@ -1,0 +1,72 @@
+.our-services {
+  padding-top: 100px;
+}
+
+.foto-perempuan-senang {
+  width: 440px;
+  height: 409px;
+}
+
+.container-desc {
+  padding-top: 30px;
+}
+
+.our-services-title {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 36px;
+  color: #000000;
+  margin-bottom: 20px;
+}
+
+.caption-title-our-service {
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 20px;
+  color: #000000;
+}
+
+.centang-text {
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 20px;
+  color: #000000;
+}
+
+.centang-icon {
+  width: 24px;
+  height: 24px;
+}
+
+@media only screen and (max-width: 360px) {
+  .foto-perempuan-senang {
+    width: 222px;
+    height: 198px;
+  }
+
+  .our-services {
+    padding-top: 30px;
+  }
+}
+
+@media (min-width: 360px) and (max-width: 420px) {
+  .foto-perempuan-senang {
+    width: 252px;
+    height: 228px;
+  }
+
+  .our-services {
+    padding-top: 30px;
+  }
+}
+
+@media (min-width: 420px) and (max-width: 767px) {
+  .foto-perempuan-senang {
+    width: 332px;
+    height: 308px;
+  }
+
+  .our-services {
+    padding-top: 40px;
+  }
+}
